@@ -3,6 +3,7 @@ channels:
   - defaults
 dependencies:
   - python
-  - flask
   - pandas
+  - numpy
+  - flask
   - ipykernel
