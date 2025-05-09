@@ -28,3 +28,16 @@ command:
 ```
 jupyter execute model.ipynb
 ```
+
+### Troubleshooting
+
+If you for some reason get errors when running the machine learning model application, it is
+usually caused by conflicting dependencies. You can solve this by deleting your Anaconda
+environment for the application and setting it up again. Run the following command to delete the
+Anaconda environment:
+
+```
+conda remove -n modelenv --all
+```
+
+To set up the Anaconda environment again, follow the steps in **How to run**.
